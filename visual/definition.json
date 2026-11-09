@@ -1,0 +1,46 @@
+{
+  "id": "ourapps-ae.chip-graphics",
+  "name": "Chip graphics",
+  "kind": "component",
+  "status": "example",
+  "package": "ourapps-ae/chip-graphics",
+  "version": "0.3.0",
+  "ports": [
+    {
+      "id": "theme",
+      "name": "Theme",
+      "direction": "input",
+      "kind": "interface",
+      "type": "ae/theme",
+      "version": "1.0.0",
+      "required": true,
+      "cardinality": "one"
+    },
+    {
+      "id": "chip-graphics",
+      "name": "Chip graphics",
+      "direction": "output",
+      "kind": "interface",
+      "type": "ae/chip-graphics",
+      "version": "1.0.0"
+    }
+  ],
+  "settings": [
+    {
+      "id": "denominations",
+      "name": "Denominations",
+      "type": "string",
+      "required": false,
+      "secret": false,
+      "default": "casino 5000 1000 500 100 25 5 1"
+    },
+    {
+      "id": "chipColours",
+      "name": "Chipcolours",
+      "type": "string",
+      "required": false,
+      "secret": false,
+      "default": "casino"
+    }
+  ]
+}

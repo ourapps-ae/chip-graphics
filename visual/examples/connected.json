@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "chip-graphics-connected",
+  "title": "Chip graphics: connected consumer",
+  "status": "example",
+  "view": "component",
+  "focus": "component",
+  "definitions": [
+    {
+      "id": "ourapps-ae.chip-graphics",
+      "name": "Chip graphics",
+      "kind": "component",
+      "status": "example",
+      "package": "ourapps-ae/chip-graphics",
+      "version": "0.3.0",
+      "ports": [
+        {
+          "id": "theme",
+          "name": "Theme",
+          "direction": "input",
+          "kind": "interface",
+          "type": "ae/theme",
+          "version": "1.0.0",
+          "required": true,
+          "cardinality": "one"
+        },
+        {
+          "id": "chip-graphics",
+          "name": "Chip graphics",
+          "direction": "output",
+          "kind": "interface",
+          "type": "ae/chip-graphics",
+          "version": "1.0.0"
+        }
+      ],
+      "settings": [
+        {
+          "id": "denominations",
+          "name": "Denominations",
+          "type": "string",
+          "required": false,
+          "secret": false,
+          "default": "casino 5000 1000 500 100 25 5 1"
+        },
+        {
+          "id": "chipColours",
+          "name": "Chipcolours",
+          "type": "string",
+          "required": false,
+          "secret": false,
+          "default": "casino"
+        }
+      ]
+    },
+    {
+      "id": "consumer",
+      "name": "Example application consumer",
+      "kind": "application",
+      "status": "example",
+      "revision": "0.1.0",
+      "ports": [
+        {
+          "id": "chip-graphics",
+          "name": "Chip graphics",
+          "direction": "input",
+          "kind": "interface",
+          "type": "ae/chip-graphics",
+          "version": "1.0.0",
+          "required": true,
+          "cardinality": "one"
+        },
+        {
+          "id": "theme",
+          "name": "Theme",
+          "direction": "output",
+          "kind": "interface",
+          "type": "ae/theme",
+          "version": "1.0.0"
+        }
+      ],
+      "settings": []
+    }
+  ],
+  "instances": [
+    {
+      "id": "component",
+      "name": "Chip graphics",
+      "definition": "ourapps-ae.chip-graphics",
+      "configuration": {}
+    },
+    {
+      "id": "consumer",
+      "name": "Example consumer",
+      "definition": "consumer",
+      "configuration": {}
+    }
+  ],
+  "connections": [
+    {
+      "source": {
+        "instance": "component",
+        "port": "chip-graphics"
+      },
+      "target": {
+        "instance": "consumer",
+        "port": "chip-graphics"
+      }
+    },
+    {
+      "source": {
+        "instance": "consumer",
+        "port": "theme"
+      },
+      "target": {
+        "instance": "component",
+        "port": "theme"
+      }
+    }
+  ]
+}

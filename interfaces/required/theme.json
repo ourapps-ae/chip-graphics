@@ -1,0 +1,30 @@
+{
+  "id": "theme",
+  "type": "ae/theme",
+  "version": "1.0.0",
+  "notes": "What chip-graphics reads from the theme component (theme interfaces/theme.json): the amount label border uses this colour variable; chip fills come from the chipColours setting. chip-graphics imports nothing from the theme; the application applies the theme so these CSS variables exist on the page.",
+  "operations": {
+    "applyTheme": {
+      "arguments": [
+        "tokens:Tokens",
+        "element:{style:{setProperty}}"
+      ],
+      "returns": "void (sets every variable below on the element)"
+    },
+    "renderCss": {
+      "arguments": [
+        "file:ThemeFile"
+      ],
+      "returns": "string (the shipped theme.css, same variables)"
+    },
+    "cssVariables": {
+      "arguments": [
+        "tokens:Tokens"
+      ],
+      "returns": "map<string,string>"
+    }
+  },
+  "cssVariables": [
+    "--primary"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "chip-graphics",
+  "type": "ae/chip-graphics",
+  "version": "1.0.0",
+  "description": "Chip piles for an amount in the application's denominations, and bets moving to the pot and winnings moving to winners.",
+  "settings": {
+    "denominations": "string list written as an optional name then whole numbers separated by spaces, always including 1, such as 'casino 5000 1000 500 100 25 5 1' (an aepm string setting is letters, digits, spaces and hyphens only)",
+    "chipColours": "the name of a set, then optional denomination-rrggbb entries, such as 'casino' or 'mine 1000-e07b2a 25-2e8b57'; denominations without an entry keep the casino colour or get a spare one"
+  },
+  "operations": {
+    "breakdown": { "arguments": ["amount:number", "denominations?:number[]|string", "maxStack?:number"], "returns": "{denom:number,count:number}[]" },
+    "stackTotal": { "arguments": ["stacks:Stack[]"], "returns": "number" },
+    "parseDenominations": { "arguments": ["value:string|number[]"], "returns": "number[] (largest first)" },
+    "parseChipColours": { "arguments": ["value:string|map<number,string|Partial<ChipColour>>", "denominations:number[]"], "returns": "map<number,{fill,edge,ink}>" },
+    "normaliseSettings": { "arguments": ["input?:{denominations?:string,chipColours?:string}"], "returns": "{denominations:number[],colours:map}" },
+    "pileLayout": { "arguments": ["stacks:Stack[]", "size?:number"], "returns": "{width,height,lift,chips:{stack,index,denom,x,y,label}[]}" },
+    "shortDenom": { "arguments": ["denomination:number"], "returns": "string" },
+    "pileEl": { "arguments": ["amount:number", "options?:{settings?,size?:number,label?:boolean,format?:(n)=>string}"], "returns": "HTMLElement" },
+    "sweepToPot": { "arguments": ["bets:{id,amount,from:Point}[]", "pot:Point", "options?:{startMs?,flyMs?}"], "returns": "Flight[]" },
+    "awardPot": { "arguments": ["awards:{id,amount,to:Point}[]", "pot:Point", "options?:{startMs?,flyMs?}"], "returns": "Flight[]" },
+    "betFlight": { "arguments": ["id:string", "previous:number", "bet:number", "sweptSince:boolean", "seat:Point", "spot:Point", "allIn?:boolean", "options?:{startMs?,flyMs?,allInMs?}"], "returns": "Flight|null" },
+    "flightAt": { "arguments": ["flight:{from,to}", "progress:number"], "returns": "Point" },
+    "allInScale": { "arguments": ["progress:number"], "returns": "number" },
+    "lastLanding": { "arguments": ["flights:Flight[]"], "returns": "number" },
+    "launchFlights": { "arguments": ["container:HTMLElement", "flights:Flight[]", "options:{project:(p:Point)=>{x,y},pile?:PileOptions,onLand?:(f)=>void,steps?:number}"], "returns": "() => void (cancel)" }
+  },
+  "flight": "{key, from, to (fractions of the table), amount, delayMs, durationMs, endMs, allIn}",
+  "styles": { "web": "implementation/web/chips.css", "themeVariables": ["--primary"] },
+  "native": {
+    "apple": ["ChipModel", "ChipStyle", "ChipPile", "ChipFlightLayer"],
+    "android": ["ChipModel", "ChipStyle", "LocalChipStyle", "ChipPile", "ChipFlightLayer"]
+  }
+}

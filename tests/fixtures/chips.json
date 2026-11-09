@@ -1,0 +1,6358 @@
+{
+ "sets": [
+  {
+   "set": "casino 5000 1000 500 100 25 5 1",
+   "denominations": [
+    5000,
+    1000,
+    500,
+    100,
+    25,
+    5,
+    1
+   ]
+  },
+  {
+   "set": "tokens 100 20 5 1",
+   "denominations": [
+    100,
+    20,
+    5,
+    1
+   ]
+  },
+  {
+   "set": "units 10 1",
+   "denominations": [
+    10,
+    1
+   ]
+  }
+ ],
+ "breakdowns": [
+  {
+   "set": "casino 5000 1000 500 100 25 5 1",
+   "amount": 0,
+   "stacks": []
+  },
+  {
+   "set": "casino 5000 1000 500 100 25 5 1",
+   "amount": 1,
+   "stacks": [
+    {
+     "denom": 1,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "set": "casino 5000 1000 500 100 25 5 1",
+   "amount": 4,
+   "stacks": [
+    {
+     "denom": 1,
+     "count": 4
+    }
+   ]
+  },
+  {
+   "set": "casino 5000 1000 500 100 25 5 1",
+   "amount": 5,
+   "stacks": [
+    {
+     "denom": 5,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "set": "casino 5000 1000 500 100 25 5 1",
+   "amount": 24,
+   "stacks": [
+    {
+     "denom": 5,
+     "count": 4
+    },
+    {
+     "denom": 1,
+     "count": 4
+    }
+   ]
+  },
+  {
+   "set": "casino 5000 1000 500 100 25 5 1",
+   "amount": 25,
+   "stacks": [
+    {
+     "denom": 25,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "set": "casino 5000 1000 500 100 25 5 1",
+   "amount": 99,
+   "stacks": [
+    {
+     "denom": 25,
+     "count": 3
+    },
+    {
+     "denom": 5,
+     "count": 4
+    },
+    {
+     "denom": 1,
+     "count": 4
+    }
+   ]
+  },
+  {
+   "set": "casino 5000 1000 500 100 25 5 1",
+   "amount": 100,
+   "stacks": [
+    {
+     "denom": 100,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "set": "casino 5000 1000 500 100 25 5 1",
+   "amount": 1337,
+   "stacks": [
+    {
+     "denom": 1000,
+     "count": 1
+    },
+    {
+     "denom": 100,
+     "count": 3
+    },
+    {
+     "denom": 25,
+     "count": 1
+    },
+    {
+     "denom": 5,
+     "count": 2
+    },
+    {
+     "denom": 1,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "set": "casino 5000 1000 500 100 25 5 1",
+   "amount": 5000,
+   "stacks": [
+    {
+     "denom": 5000,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "set": "casino 5000 1000 500 100 25 5 1",
+   "amount": 12345,
+   "stacks": [
+    {
+     "denom": 5000,
+     "count": 2
+    },
+    {
+     "denom": 1000,
+     "count": 2
+    },
+    {
+     "denom": 100,
+     "count": 3
+    },
+    {
+     "denom": 25,
+     "count": 1
+    },
+    {
+     "denom": 5,
+     "count": 4
+    }
+   ]
+  },
+  {
+   "set": "casino 5000 1000 500 100 25 5 1",
+   "amount": 125007,
+   "stacks": [
+    {
+     "denom": 5000,
+     "count": 12
+    },
+    {
+     "denom": 5000,
+     "count": 12
+    },
+    {
+     "denom": 5000,
+     "count": 1
+    },
+    {
+     "denom": 5,
+     "count": 1
+    },
+    {
+     "denom": 1,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "set": "tokens 100 20 5 1",
+   "amount": 0,
+   "stacks": []
+  },
+  {
+   "set": "tokens 100 20 5 1",
+   "amount": 1,
+   "stacks": [
+    {
+     "denom": 1,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "set": "tokens 100 20 5 1",
+   "amount": 4,
+   "stacks": [
+    {
+     "denom": 1,
+     "count": 4
+    }
+   ]
+  },
+  {
+   "set": "tokens 100 20 5 1",
+   "amount": 5,
+   "stacks": [
+    {
+     "denom": 5,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "set": "tokens 100 20 5 1",
+   "amount": 24,
+   "stacks": [
+    {
+     "denom": 20,
+     "count": 1
+    },
+    {
+     "denom": 1,
+     "count": 4
+    }
+   ]
+  },
+  {
+   "set": "tokens 100 20 5 1",
+   "amount": 25,
+   "stacks": [
+    {
+     "denom": 20,
+     "count": 1
+    },
+    {
+     "denom": 5,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "set": "tokens 100 20 5 1",
+   "amount": 99,
+   "stacks": [
+    {
+     "denom": 20,
+     "count": 4
+    },
+    {
+     "denom": 5,
+     "count": 3
+    },
+    {
+     "denom": 1,
+     "count": 4
+    }
+   ]
+  },
+  {
+   "set": "tokens 100 20 5 1",
+   "amount": 100,
+   "stacks": [
+    {
+     "denom": 100,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "set": "tokens 100 20 5 1",
+   "amount": 1337,
+   "stacks": [
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 1
+    },
+    {
+     "denom": 20,
+     "count": 1
+    },
+    {
+     "denom": 5,
+     "count": 3
+    },
+    {
+     "denom": 1,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "set": "tokens 100 20 5 1",
+   "amount": 5000,
+   "stacks": [
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "set": "tokens 100 20 5 1",
+   "amount": 12345,
+   "stacks": [
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 3
+    },
+    {
+     "denom": 20,
+     "count": 2
+    },
+    {
+     "denom": 5,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "set": "tokens 100 20 5 1",
+   "amount": 125007,
+   "stacks": [
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 12
+    },
+    {
+     "denom": 100,
+     "count": 2
+    },
+    {
+     "denom": 5,
+     "count": 1
+    },
+    {
+     "denom": 1,
+     "count": 2
+    }
+   ]
+  },
+  {
+   "set": "units 10 1",
+   "amount": 0,
+   "stacks": []
+  },
+  {
+   "set": "units 10 1",
+   "amount": 1,
+   "stacks": [
+    {
+     "denom": 1,
+     "count": 1
+    }
+   ]
+  },
+  {
+   "set": "units 10 1",
+   "amount": 4,
+   "stacks": [
+    {
+     "denom": 1,
+     "count": 4
+    }
+   ]
+  },
+  {
+   "set": "units 10 1",
+   "amount": 5,
+   "stacks": [
+    {
+     "denom": 1,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "set": "units 10 1",
+   "amount": 24,
+   "stacks": [
+    {
+     "denom": 10,
+     "count": 2
+    },
+    {
+     "denom": 1,
+     "count": 4
+    }
+   ]
+  },
+  {
+   "set": "units 10 1",
+   "amount": 25,
+   "stacks": [
+    {
+     "denom": 10,
+     "count": 2
+    },
+    {
+     "denom": 1,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "set": "units 10 1",
+   "amount": 99,
+   "stacks": [
+    {
+     "denom": 10,
+     "count": 9
+    },
+    {
+     "denom": 1,
+     "count": 9
+    }
+   ]
+  },
+  {
+   "set": "units 10 1",
+   "amount": 100,
+   "stacks": [
+    {
+     "denom": 10,
+     "count": 10
+    }
+   ]
+  },
+  {
+   "set": "units 10 1",
+   "amount": 1337,
+   "stacks": [
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 1
+    },
+    {
+     "denom": 1,
+     "count": 7
+    }
+   ]
+  },
+  {
+   "set": "units 10 1",
+   "amount": 5000,
+   "stacks": [
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 8
+    }
+   ]
+  },
+  {
+   "set": "units 10 1",
+   "amount": 12345,
+   "stacks": [
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 10
+    },
+    {
+     "denom": 1,
+     "count": 5
+    }
+   ]
+  },
+  {
+   "set": "units 10 1",
+   "amount": 125007,
+   "stacks": [
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 12
+    },
+    {
+     "denom": 10,
+     "count": 8
+    },
+    {
+     "denom": 1,
+     "count": 7
+    }
+   ]
+  }
+ ],
+ "layouts": [
+  {
+   "size": 12,
+   "amount": 1337,
+   "layout": {
+    "width": 70,
+    "height": 18,
+    "lift": 3,
+    "chips": [
+     {
+      "stack": 0,
+      "index": 0,
+      "denom": 1000,
+      "x": 0,
+      "y": 6,
+      "label": false
+     },
+     {
+      "stack": 1,
+      "index": 0,
+      "denom": 100,
+      "x": 14,
+      "y": 6,
+      "label": false
+     },
+     {
+      "stack": 1,
+      "index": 1,
+      "denom": 100,
+      "x": 14,
+      "y": 3,
+      "label": false
+     },
+     {
+      "stack": 1,
+      "index": 2,
+      "denom": 100,
+      "x": 14,
+      "y": 0,
+      "label": false
+     },
+     {
+      "stack": 2,
+      "index": 0,
+      "denom": 25,
+      "x": 28,
+      "y": 6,
+      "label": false
+     },
+     {
+      "stack": 3,
+      "index": 0,
+      "denom": 5,
+      "x": 42,
+      "y": 6,
+      "label": false
+     },
+     {
+      "stack": 3,
+      "index": 1,
+      "denom": 5,
+      "x": 42,
+      "y": 3,
+      "label": false
+     },
+     {
+      "stack": 4,
+      "index": 0,
+      "denom": 1,
+      "x": 56,
+      "y": 6,
+      "label": false
+     },
+     {
+      "stack": 4,
+      "index": 1,
+      "denom": 1,
+      "x": 56,
+      "y": 3,
+      "label": false
+     }
+    ]
+   }
+  },
+  {
+   "size": 12,
+   "amount": 7,
+   "layout": {
+    "width": 28,
+    "height": 15,
+    "lift": 3,
+    "chips": [
+     {
+      "stack": 0,
+      "index": 0,
+      "denom": 5,
+      "x": 0,
+      "y": 3,
+      "label": false
+     },
+     {
+      "stack": 1,
+      "index": 0,
+      "denom": 1,
+      "x": 14,
+      "y": 3,
+      "label": false
+     },
+     {
+      "stack": 1,
+      "index": 1,
+      "denom": 1,
+      "x": 14,
+      "y": 0,
+      "label": false
+     }
+    ]
+   }
+  },
+  {
+   "size": 12,
+   "amount": 0,
+   "layout": {
+    "width": 12,
+    "height": 12,
+    "lift": 3,
+    "chips": []
+   }
+  },
+  {
+   "size": 14,
+   "amount": 1337,
+   "layout": {
+    "width": 80,
+    "height": 20,
+    "lift": 3,
+    "chips": [
+     {
+      "stack": 0,
+      "index": 0,
+      "denom": 1000,
+      "x": 0,
+      "y": 6,
+      "label": true
+     },
+     {
+      "stack": 1,
+      "index": 0,
+      "denom": 100,
+      "x": 16,
+      "y": 6,
+      "label": false
+     },
+     {
+      "stack": 1,
+      "index": 1,
+      "denom": 100,
+      "x": 16,
+      "y": 3,
+      "label": false
+     },
+     {
+      "stack": 1,
+      "index": 2,
+      "denom": 100,
+      "x": 16,
+      "y": 0,
+      "label": true
+     },
+     {
+      "stack": 2,
+      "index": 0,
+      "denom": 25,
+      "x": 32,
+      "y": 6,
+      "label": true
+     },
+     {
+      "stack": 3,
+      "index": 0,
+      "denom": 5,
+      "x": 48,
+      "y": 6,
+      "label": false
+     },
+     {
+      "stack": 3,
+      "index": 1,
+      "denom": 5,
+      "x": 48,
+      "y": 3,
+      "label": true
+     },
+     {
+      "stack": 4,
+      "index": 0,
+      "denom": 1,
+      "x": 64,
+      "y": 6,
+      "label": false
+     },
+     {
+      "stack": 4,
+      "index": 1,
+      "denom": 1,
+      "x": 64,
+      "y": 3,
+      "label": true
+     }
+    ]
+   }
+  },
+  {
+   "size": 14,
+   "amount": 7,
+   "layout": {
+    "width": 32,
+    "height": 17,
+    "lift": 3,
+    "chips": [
+     {
+      "stack": 0,
+      "index": 0,
+      "denom": 5,
+      "x": 0,
+      "y": 3,
+      "label": true
+     },
+     {
+      "stack": 1,
+      "index": 0,
+      "denom": 1,
+      "x": 16,
+      "y": 3,
+      "label": false
+     },
+     {
+      "stack": 1,
+      "index": 1,
+      "denom": 1,
+      "x": 16,
+      "y": 0,
+      "label": true
+     }
+    ]
+   }
+  },
+  {
+   "size": 14,
+   "amount": 0,
+   "layout": {
+    "width": 14,
+    "height": 14,
+    "lift": 3,
+    "chips": []
+   }
+  },
+  {
+   "size": 40,
+   "amount": 1337,
+   "layout": {
+    "width": 210,
+    "height": 58,
+    "lift": 9,
+    "chips": [
+     {
+      "stack": 0,
+      "index": 0,
+      "denom": 1000,
+      "x": 0,
+      "y": 18,
+      "label": true
+     },
+     {
+      "stack": 1,
+      "index": 0,
+      "denom": 100,
+      "x": 42,
+      "y": 18,
+      "label": false
+     },
+     {
+      "stack": 1,
+      "index": 1,
+      "denom": 100,
+      "x": 42,
+      "y": 9,
+      "label": false
+     },
+     {
+      "stack": 1,
+      "index": 2,
+      "denom": 100,
+      "x": 42,
+      "y": 0,
+      "label": true
+     },
+     {
+      "stack": 2,
+      "index": 0,
+      "denom": 25,
+      "x": 84,
+      "y": 18,
+      "label": true
+     },
+     {
+      "stack": 3,
+      "index": 0,
+      "denom": 5,
+      "x": 126,
+      "y": 18,
+      "label": false
+     },
+     {
+      "stack": 3,
+      "index": 1,
+      "denom": 5,
+      "x": 126,
+      "y": 9,
+      "label": true
+     },
+     {
+      "stack": 4,
+      "index": 0,
+      "denom": 1,
+      "x": 168,
+      "y": 18,
+      "label": false
+     },
+     {
+      "stack": 4,
+      "index": 1,
+      "denom": 1,
+      "x": 168,
+      "y": 9,
+      "label": true
+     }
+    ]
+   }
+  },
+  {
+   "size": 40,
+   "amount": 7,
+   "layout": {
+    "width": 84,
+    "height": 49,
+    "lift": 9,
+    "chips": [
+     {
+      "stack": 0,
+      "index": 0,
+      "denom": 5,
+      "x": 0,
+      "y": 9,
+      "label": true
+     },
+     {
+      "stack": 1,
+      "index": 0,
+      "denom": 1,
+      "x": 42,
+      "y": 9,
+      "label": false
+     },
+     {
+      "stack": 1,
+      "index": 1,
+      "denom": 1,
+      "x": 42,
+      "y": 0,
+      "label": true
+     }
+    ]
+   }
+  },
+  {
+   "size": 40,
+   "amount": 0,
+   "layout": {
+    "width": 40,
+    "height": 40,
+    "lift": 9,
+    "chips": []
+   }
+  }
+ ],
+ "colours": [
+  {
+   "setting": "casino",
+   "denoms": [
+    5000,
+    1000,
+    500,
+    100,
+    25,
+    5,
+    1
+   ],
+   "colours": {
+    "1": {
+     "fill": "#8a8f98",
+     "edge": "#f6f1e4",
+     "ink": "#1b1a17"
+    },
+    "5": {
+     "fill": "#c0262d",
+     "edge": "#f6f1e4",
+     "ink": "#f6f1e4"
+    },
+    "25": {
+     "fill": "#2e8b57",
+     "edge": "#f6f1e4",
+     "ink": "#f6f1e4"
+    },
+    "100": {
+     "fill": "#1b1a17",
+     "edge": "#f6f1e4",
+     "ink": "#f6f1e4"
+    },
+    "500": {
+     "fill": "#6e3fa0",
+     "edge": "#f6f1e4",
+     "ink": "#f6f1e4"
+    },
+    "1000": {
+     "fill": "#e07b2a",
+     "edge": "#f6f1e4",
+     "ink": "#2b1a08"
+    },
+    "5000": {
+     "fill": "#f1e6c8",
+     "edge": "#b08a3c",
+     "ink": "#4a3a14"
+    }
+   }
+  },
+  {
+   "setting": "mine 25-112233 7-ffffff",
+   "denoms": [
+    100,
+    25,
+    7,
+    1
+   ],
+   "colours": {
+    "1": {
+     "fill": "#8a8f98",
+     "edge": "#f6f1e4",
+     "ink": "#1b1a17"
+    },
+    "7": {
+     "fill": "#ffffff",
+     "edge": "#f6f1e4",
+     "ink": "#1b1a17"
+    },
+    "25": {
+     "fill": "#112233",
+     "edge": "#f6f1e4",
+     "ink": "#f6f1e4"
+    },
+    "100": {
+     "fill": "#1b1a17",
+     "edge": "#f6f1e4",
+     "ink": "#f6f1e4"
+    }
+   }
+  },
+  {
+   "setting": "casino",
+   "denoms": [
+    50,
+    10,
+    1
+   ],
+   "colours": {
+    "1": {
+     "fill": "#8a8f98",
+     "edge": "#f6f1e4",
+     "ink": "#1b1a17"
+    },
+    "10": {
+     "fill": "#b0752f",
+     "edge": "#f6f1e4",
+     "ink": "#f6f1e4"
+    },
+    "50": {
+     "fill": "#2f6fb0",
+     "edge": "#f6f1e4",
+     "ink": "#f6f1e4"
+    }
+   }
+  }
+ ],
+ "flights": [
+  {
+   "key": "pot:a",
+   "from": {
+    "x": 0.2,
+    "y": 0.4
+   },
+   "to": {
+    "x": 0.5,
+    "y": 0.63
+   },
+   "amount": 50,
+   "delayMs": 100,
+   "durationMs": 450,
+   "endMs": 550,
+   "allIn": false
+  },
+  {
+   "key": "pot:c",
+   "from": {
+    "x": 0.5,
+    "y": 0.7
+   },
+   "to": {
+    "x": 0.5,
+    "y": 0.63
+   },
+   "amount": 25,
+   "delayMs": 100,
+   "durationMs": 450,
+   "endMs": 550,
+   "allIn": false
+  }
+ ],
+ "along": [
+  {
+   "progress": 0,
+   "point": {
+    "x": 0.2,
+    "y": 0.4
+   },
+   "scale": 1
+  },
+  {
+   "progress": 0.25,
+   "point": {
+    "x": 0.23750000000000002,
+    "y": 0.42875
+   },
+   "scale": 1.3535533905932737
+  },
+  {
+   "progress": 0.5,
+   "point": {
+    "x": 0.35,
+    "y": 0.515
+   },
+   "scale": 1.5
+  },
+  {
+   "progress": 0.75,
+   "point": {
+    "x": 0.4625,
+    "y": 0.6012500000000001
+   },
+   "scale": 1.3535533905932737
+  },
+  {
+   "progress": 1,
+   "point": {
+    "x": 0.5,
+    "y": 0.63
+   },
+   "scale": 1
+  }
+ ],
+ "short": [
+  [
+   1,
+   "1"
+  ],
+  [
+   25,
+   "25"
+  ],
+  [
+   999,
+   "999"
+  ],
+  [
+   1000,
+   "1k"
+  ],
+  [
+   1500,
+   "1.5k"
+  ],
+  [
+   5000,
+   "5k"
+  ]
+ ]
+}

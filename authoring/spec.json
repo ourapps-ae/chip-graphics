@@ -1,0 +1,135 @@
+{
+  "name": "chip-graphics",
+  "version": "0.3.0",
+  "title": "Chip graphics",
+  "description": "Chip stacks for an amount in the application's denominations, and bets moving to the pot, for web, Apple and Android.",
+  "facilities": [
+    {
+      "id": "chip-graphics",
+      "description": "Chip piles, denomination breakdown, bets and winnings in motion"
+    }
+  ],
+  "provides": [
+    {
+      "id": "chip-graphics",
+      "type": "ae/chip-graphics",
+      "version": "1.0.0",
+      "path": "interfaces/chip-graphics.json"
+    }
+  ],
+  "requires": [
+    {
+      "id": "theme",
+      "type": "ae/theme",
+      "version": "1.0.0",
+      "path": "interfaces/required/theme.json"
+    }
+  ],
+  "collect": [
+    {
+      "id": "denominations",
+      "type": "string",
+      "grammar": "label",
+      "required": false,
+      "secret": false,
+      "default": "casino 5000 1000 500 100 25 5 1"
+    },
+    {
+      "id": "chipColours",
+      "type": "string",
+      "grammar": "label",
+      "required": false,
+      "secret": false,
+      "default": "casino"
+    }
+  ],
+  "dependencies": [],
+  "suites": [
+    {
+      "id": "web",
+      "argv": [
+        "node",
+        "--test",
+        "tests/web.test.ts"
+      ],
+      "scope": "required-local",
+      "tools": {
+        "node": "26.5.0"
+      }
+    },
+    {
+      "id": "apple",
+      "argv": [
+        "python3",
+        "tests/native.py",
+        "apple"
+      ],
+      "scope": "platform",
+      "fixtures": [
+        "tests/apple/main.swift"
+      ],
+      "tools": {
+        "python3": "3.12.8",
+        "swiftc": "6.4.2"
+      }
+    },
+    {
+      "id": "android",
+      "argv": [
+        "python3",
+        "tests/native.py",
+        "android"
+      ],
+      "scope": "platform",
+      "fixtures": [
+        "tests/android/Main.kt"
+      ],
+      "tools": {
+        "python3": "3.12.8",
+        "kotlinc": "2.2.0",
+        "java": "26.0.1"
+      }
+    }
+  ],
+  "tools": {
+    "node": "26.5.0",
+    "python3": "3.12.8",
+    "swiftc": "6.4.2",
+    "kotlinc": "2.2.0",
+    "java": "26.0.1"
+  },
+  "platforms": [
+    "web",
+    "apple",
+    "android"
+  ],
+  "text": {
+    "purpose": "`chip-graphics` turns an amount into stacks of discs and moves them. A greedy breakdown picks the largest denominations first and starts another stack after twelve chips; discs are drawn with a dashed edge and the value of the top chip; the amount is written under the pile. It also plans motion: every bet moving from in front of its owner to the pot at once, winnings moving from the pot to each winner, a bet moving from a seat to its spot (an all in being slower and larger), with the position of a pile at any moment of a flight. The denominations and their colours are settings, so a game of tokens worth 100, 20, 5 and 1 uses the same code as a casino set. It draws no cards and knows no game rules.",
+    "userInputs": "`denominations`: the chip values, written as an optional name then whole numbers separated by spaces, always including 1 so every amount can be made: `casino 5000 1000 500 100 25 5 1` (default) or `tokens 100 20 5 1`. An aepm string setting may hold only letters, digits, spaces and hyphens, so the list cannot use commas; code may also pass an array. `chipColours`: the name of a colour set then optional `denomination-rrggbb` entries: `casino` (default) uses the casino colours, `mine 1000-e07b2a 25-2e8b57` overrides two; a denomination without an entry keeps its casino colour, or gets a spare colour if the casino set has none for it; ink is chosen to read on the disc. The amount label's border is the theme's primary colour.",
+    "integration": "Web: link `web/chips.css`; call `pileEl(amount, { settings: { denominations, chipColours }, size, label, format })`; plan motion with `sweepToPot`, `awardPot` and `betFlight` using spots from the `table-layout` component, and play it with `launchFlights(container, flights, { project })`, where `project` turns a spot (a fraction of the table) into pixels. Apple: compile `ChipModel.swift` anywhere and `ChipViews.swift` in UIKit targets with the theme's Swift files; `ChipStyle(denominations:chipColours:)` once near the root with `.chipStyle(...)`; use `ChipPile` and `ChipFlightLayer`. Android: add `ChipModel.kt` and `ChipViews.kt` to a Compose module with the theme's Kotlin files and provide `LocalChipStyle`. Seat positions, the pot spot, the decision of when to sweep and what the amounts mean are the application's.",
+    "infrastructure": "None. Local drawing only; no accounts, network or deployment.",
+    "verification": "Node tests check the breakdown (largest first, adding back to the amount for many amounts, twelve to a stack, other denomination sets and a missing 1 refused), the settings grammar, colours (casino, overrides, spare colours, readable ink), pile layout (stack spacing, lift, which chips carry a value), short value text, the DOM of `pileEl`, and flights (sweep, award, the rise of a bet, an all in being slower, easing, landing order) including launching real timed flights against a stand-in page and cancelling them. The Apple check compiles and runs `tests/apple/main.swift` for macOS, comparing 36 breakdowns over three denomination sets, pile layouts, colours and flights with the TypeScript output, then type-checks all Swift with the theme's against the iOS simulator SDK. The Android check compares the same breakdowns and layouts (`tests/android/Expected.kt`); kotlinc was not available where this was written, so it has not been run, and `ChipViews.kt` (Compose) is only compiled by the application's Gradle build. Pixels are not compared.",
+    "scenarios": "A hand of 1,337 chips shows as one orange 1k chip, three black 100s, a green 25, two red 5s and two grey 1s; a call sends the caller's chips from their seat to the bet spot; at the end of a betting round every bet sweeps into the pot together; a winner's share flies from the pot to their stack; a game of tokens worth 100, 20, 5 and 1 shows blue 100 chips; a raise to everything is slower, larger and glows.",
+    "updates": "Patch updates replace files only. The component keeps no data; removal deletes its files and the application's imports of them."
+  },
+  "agentInstructions": "Select `ourapps-ae/chip-graphics`; connect `theme` to the theme component. Set `denominations` from the recipe's chips answer (starting chips and blinds decide which denominations are useful; always include 1) and leave `chipColours` at `casino` unless the user wants other colours.",
+  "developerInstructions": "Choose denominations so a typical stack is a handful of chips (a stack over twelve becomes two). Pass spots from `table-layout` as fractions of the table to the flight functions. Keep `chip-model` the single source of truth; regenerate the Swift and Kotlin fixtures with `node tests/make-fixtures.ts` after any change.",
+  "suitability": {
+    "format": 1,
+    "jobs": [
+      "chip-graphics"
+    ],
+    "profiles": [
+      {
+        "id": "any",
+        "load": {},
+        "cost": "none",
+        "regions": [
+          "any"
+        ],
+        "compliance": []
+      }
+    ],
+    "notes": "Pure library; no provider limits apply."
+  }
+}
