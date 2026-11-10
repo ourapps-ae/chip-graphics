@@ -1,241 +1,48 @@
 {
-  "format": 1,
-  "kind": "component",
-  "identity": {
-    "name": "ourapps-ae/chip-graphics",
-    "version": "0.3.0",
-    "sourceRevision": "19905b75dbea89fbfd424d67fe26c81aaed0e018",
-    "sourceTreeDigest": "0000000000000000000000000000000000000000000000000000000000000000",
-    "licenceStatus": "deferred"
-  },
-  "facilities": [
-    {
-      "id": "chip-graphics",
-      "description": "Chip piles, denomination breakdown, bets and winnings in motion"
-    }
-  ],
-  "documents": {
-    "contract": "CONTRACT.md",
-    "interfaces": [
-      "interfaces/chip-graphics.json",
-      "interfaces/required/theme.json",
-      "suitability.json"
-    ],
-    "examples": [
-      "examples/consumer.ts"
-    ],
-    "licenceNotice": "LICENCE"
-  },
-  "collect": [
-    {
-      "id": "denominations",
-      "type": "string",
-      "grammar": "label",
-      "required": false,
-      "secret": false,
-      "default": "casino 5000 1000 500 100 25 5 1"
-    },
-    {
-      "id": "chipColours",
-      "type": "string",
-      "grammar": "label",
-      "required": false,
-      "secret": false,
-      "default": "casino"
-    }
-  ],
-  "files": [
-    {
-      "path": "CONTRACT.md",
-      "executable": false
-    },
-    {
-      "path": "INSTRUCTIONS.md",
-      "executable": false
-    },
-    {
-      "path": "LICENCE",
-      "executable": false
-    },
-    {
-      "path": "SOURCE.md",
-      "executable": false
-    },
-    {
-      "path": "examples/consumer.ts",
-      "executable": false
-    },
-    {
-      "path": "implementation/android/src/main/java/ae/chips/ChipModel.kt",
-      "executable": false
-    },
-    {
-      "path": "implementation/android/src/main/java/ae/chips/ChipViews.kt",
-      "executable": false
-    },
-    {
-      "path": "implementation/apple/Sources/ChipModel.swift",
-      "executable": false
-    },
-    {
-      "path": "implementation/apple/Sources/ChipViews.swift",
-      "executable": false
-    },
-    {
-      "path": "implementation/web/chip-model.ts",
-      "executable": false
-    },
-    {
-      "path": "implementation/web/chips.css",
-      "executable": false
-    },
-    {
-      "path": "implementation/web/chips.ts",
-      "executable": false
-    },
-    {
-      "path": "interfaces/chip-graphics.json",
-      "executable": false
-    },
-    {
-      "path": "interfaces/required/theme.json",
-      "executable": false
-    },
-    {
-      "path": "suitability.json",
-      "executable": false
-    },
-    {
-      "path": "tests/android/Expected.kt",
-      "executable": false
-    },
-    {
-      "path": "tests/android/Main.kt",
-      "executable": false
-    },
-    {
-      "path": "tests/apple/main.swift",
-      "executable": false
-    },
-    {
-      "path": "tests/fake-dom.ts",
-      "executable": false
-    },
-    {
-      "path": "tests/fixtures/chips.json",
-      "executable": false
-    },
-    {
-      "path": "tests/make-fixtures.ts",
-      "executable": false
-    },
-    {
-      "path": "tests/native.py",
-      "executable": false
-    },
-    {
-      "path": "tests/web.test.ts",
-      "executable": false
-    },
-    {
-      "path": "tools.lock.json",
-      "executable": false
-    },
-    {
-      "path": "visual/definition.json",
-      "executable": false
-    },
-    {
-      "path": "visual/examples/connected.json",
-      "executable": false
-    },
-    {
-      "path": "visual/output/connected.png",
-      "executable": false
-    },
-    {
-      "path": "visual/output/connected.svg",
-      "executable": false
-    },
-    {
-      "path": "visual/output/description.md",
-      "executable": false
-    }
-  ],
   "artefacts": [
     {
-      "source": "implementation/android/src/main/java/ae/chips/ChipModel.kt",
       "destination": "components/chip-graphics/android/src/main/java/ae/chips/ChipModel.kt",
-      "template": false,
-      "executable": false
+      "executable": false,
+      "source": "implementation/android/src/main/java/ae/chips/ChipModel.kt",
+      "template": false
     },
     {
-      "source": "implementation/android/src/main/java/ae/chips/ChipViews.kt",
       "destination": "components/chip-graphics/android/src/main/java/ae/chips/ChipViews.kt",
-      "template": false,
-      "executable": false
+      "executable": false,
+      "source": "implementation/android/src/main/java/ae/chips/ChipViews.kt",
+      "template": false
     },
     {
-      "source": "implementation/apple/Sources/ChipModel.swift",
       "destination": "components/chip-graphics/apple/Sources/ChipModel.swift",
-      "template": false,
-      "executable": false
+      "executable": false,
+      "source": "implementation/apple/Sources/ChipModel.swift",
+      "template": false
     },
     {
-      "source": "implementation/apple/Sources/ChipViews.swift",
       "destination": "components/chip-graphics/apple/Sources/ChipViews.swift",
-      "template": false,
-      "executable": false
+      "executable": false,
+      "source": "implementation/apple/Sources/ChipViews.swift",
+      "template": false
     },
     {
-      "source": "implementation/web/chip-model.ts",
       "destination": "components/chip-graphics/web/chip-model.ts",
-      "template": false,
-      "executable": false
+      "executable": false,
+      "source": "implementation/web/chip-model.ts",
+      "template": false
     },
     {
-      "source": "implementation/web/chips.css",
       "destination": "components/chip-graphics/web/chips.css",
-      "template": false,
-      "executable": false
+      "executable": false,
+      "source": "implementation/web/chips.css",
+      "template": false
     },
     {
-      "source": "implementation/web/chips.ts",
       "destination": "components/chip-graphics/web/chips.ts",
-      "template": false,
-      "executable": false
+      "executable": false,
+      "source": "implementation/web/chips.ts",
+      "template": false
     }
   ],
-  "dependencies": [],
-  "provides": [
-    {
-      "id": "chip-graphics",
-      "type": "ae/chip-graphics",
-      "version": "1.0.0",
-      "path": "interfaces/chip-graphics.json"
-    }
-  ],
-  "requires": [
-    {
-      "id": "theme",
-      "type": "ae/theme",
-      "version": "1.0.0",
-      "path": "interfaces/required/theme.json"
-    }
-  ],
-  "visual": {
-    "definition": "visual/definition.json",
-    "examples": [
-      "visual/examples/connected.json"
-    ],
-    "outputs": [
-      "visual/output/connected.svg",
-      "visual/output/connected.png"
-    ],
-    "descriptions": [
-      "visual/output/description.md"
-    ]
-  },
   "capabilities": {
     "hosts": [],
     "secrets": [],
@@ -249,93 +56,290 @@
       "components/chip-graphics/web/chips.ts"
     ]
   },
+  "collect": [
+    {
+      "default": "casino 5000 1000 500 100 25 5 1",
+      "grammar": "label",
+      "id": "denominations",
+      "required": false,
+      "secret": false,
+      "type": "string"
+    },
+    {
+      "default": "casino",
+      "grammar": "label",
+      "id": "chipColours",
+      "required": false,
+      "secret": false,
+      "type": "string"
+    }
+  ],
+  "dependencies": [],
+  "documents": {
+    "contract": "CONTRACT.md",
+    "examples": [
+      "examples/consumer.ts"
+    ],
+    "interfaces": [
+      "interfaces/chip-graphics.json",
+      "interfaces/required-theme.json",
+      "suitability.json"
+    ],
+    "licenceNotice": "LICENCE"
+  },
+  "facilities": [
+    {
+      "description": "Chip piles, denomination breakdown, bets and winnings in motion",
+      "id": "chip-graphics"
+    }
+  ],
+  "files": [
+    {
+      "executable": false,
+      "path": "CONTRACT.md"
+    },
+    {
+      "executable": false,
+      "path": "INSTRUCTIONS.md"
+    },
+    {
+      "executable": false,
+      "path": "LICENCE"
+    },
+    {
+      "executable": false,
+      "path": "NOTICE"
+    },
+    {
+      "executable": false,
+      "path": "SOURCE.md"
+    },
+    {
+      "executable": false,
+      "path": "examples/consumer.ts"
+    },
+    {
+      "executable": false,
+      "path": "implementation/android/src/main/java/ae/chips/ChipModel.kt"
+    },
+    {
+      "executable": false,
+      "path": "implementation/android/src/main/java/ae/chips/ChipViews.kt"
+    },
+    {
+      "executable": false,
+      "path": "implementation/apple/Sources/ChipModel.swift"
+    },
+    {
+      "executable": false,
+      "path": "implementation/apple/Sources/ChipViews.swift"
+    },
+    {
+      "executable": false,
+      "path": "implementation/web/chip-model.ts"
+    },
+    {
+      "executable": false,
+      "path": "implementation/web/chips.css"
+    },
+    {
+      "executable": false,
+      "path": "implementation/web/chips.ts"
+    },
+    {
+      "executable": false,
+      "path": "interfaces/chip-graphics.json"
+    },
+    {
+      "executable": false,
+      "path": "interfaces/required-theme.json"
+    },
+    {
+      "executable": false,
+      "path": "suitability.json"
+    },
+    {
+      "executable": false,
+      "path": "tests/android/Expected.kt"
+    },
+    {
+      "executable": false,
+      "path": "tests/android/Main.kt"
+    },
+    {
+      "executable": false,
+      "path": "tests/apple/main.swift"
+    },
+    {
+      "executable": false,
+      "path": "tests/fake-dom.ts"
+    },
+    {
+      "executable": false,
+      "path": "tests/fixtures/chips.json"
+    },
+    {
+      "executable": false,
+      "path": "tests/make-fixtures.ts"
+    },
+    {
+      "executable": false,
+      "path": "tests/native.py"
+    },
+    {
+      "executable": false,
+      "path": "tests/web.test.ts"
+    },
+    {
+      "executable": false,
+      "path": "tools.lock.json"
+    },
+    {
+      "executable": false,
+      "path": "visual/definition.json"
+    },
+    {
+      "executable": false,
+      "path": "visual/examples/connected.json"
+    },
+    {
+      "executable": false,
+      "path": "visual/output/connected.png"
+    },
+    {
+      "executable": false,
+      "path": "visual/output/connected.svg"
+    },
+    {
+      "executable": false,
+      "path": "visual/output/description.md"
+    }
+  ],
+  "format": 1,
+  "identity": {
+    "licence": "Apache-2.0",
+    "name": "ourapps-ae/chip-graphics",
+    "sourceRevision": "19905b75dbea89fbfd424d67fe26c81aaed0e018",
+    "sourceTreeDigest": "0000000000000000000000000000000000000000000000000000000000000000",
+    "version": "0.4.0"
+  },
   "infrastructure": {
     "accounts": [],
     "costStatus": "unmeasured",
     "deployedReason": "No deployed service; injected resources and local library functions only."
   },
+  "kind": "component",
+  "provides": [
+    {
+      "id": "chip-graphics",
+      "path": "interfaces/chip-graphics.json",
+      "type": "ae/chip-graphics",
+      "version": "1.0.0"
+    }
+  ],
+  "requires": [
+    {
+      "id": "theme",
+      "path": "interfaces/required-theme.json",
+      "type": "ae/theme",
+      "version": "1.0.0"
+    }
+  ],
+  "upgrade": {
+    "migration": "files-only",
+    "policy": "patch"
+  },
   "verification": [
     {
-      "id": "web",
-      "root": "package",
       "argv": [
         "node",
         "--test",
         "tests/web.test.ts"
       ],
       "cwd": ".",
-      "prepare": [],
-      "tools": {
-        "node": "26.5.0"
-      },
+      "expectedExit": 0,
       "fixtures": [
         "tests/fixtures/chips.json"
       ],
+      "id": "web",
       "locks": [
         "tools.lock.json"
       ],
       "network": false,
-      "timeoutSeconds": 120,
-      "expectedExit": 0,
+      "prepare": [],
+      "requirements": [],
+      "root": "package",
       "scope": "required-local",
-      "requirements": []
+      "timeoutSeconds": 120,
+      "tools": {
+        "node": "26.5.0"
+      }
     },
     {
-      "id": "apple",
-      "root": "package",
       "argv": [
         "python3",
         "tests/native.py",
         "apple"
       ],
       "cwd": ".",
-      "prepare": [],
-      "tools": {
-        "python3": "3.12.8",
-        "swiftc": "6.4.2"
-      },
+      "expectedExit": 0,
       "fixtures": [
         "tests/apple/main.swift"
       ],
+      "id": "apple",
       "locks": [
         "tools.lock.json"
       ],
       "network": false,
-      "timeoutSeconds": 120,
-      "expectedExit": 0,
+      "prepare": [],
+      "requirements": [],
+      "root": "package",
       "scope": "platform",
-      "requirements": []
+      "timeoutSeconds": 120,
+      "tools": {
+        "python3": "3.12.8",
+        "swiftc": "6.4.2"
+      }
     },
     {
-      "id": "android",
-      "root": "package",
       "argv": [
         "python3",
         "tests/native.py",
         "android"
       ],
       "cwd": ".",
-      "prepare": [],
-      "tools": {
-        "python3": "3.12.8",
-        "kotlinc": "2.2.0",
-        "java": "26.0.1"
-      },
+      "expectedExit": 0,
       "fixtures": [
         "tests/android/Main.kt"
       ],
+      "id": "android",
       "locks": [
         "tools.lock.json"
       ],
       "network": false,
-      "timeoutSeconds": 120,
-      "expectedExit": 0,
+      "prepare": [],
+      "requirements": [],
+      "root": "package",
       "scope": "platform",
-      "requirements": []
+      "timeoutSeconds": 120,
+      "tools": {
+        "java": "26.0.1",
+        "kotlinc": "2.2.0",
+        "python3": "3.12.8"
+      }
     }
   ],
-  "upgrade": {
-    "policy": "patch",
-    "migration": "files-only"
+  "visual": {
+    "definition": "visual/definition.json",
+    "descriptions": [
+      "visual/output/description.md"
+    ],
+    "examples": [
+      "visual/examples/connected.json"
+    ],
+    "outputs": [
+      "visual/output/connected.svg",
+      "visual/output/connected.png"
+    ]
   }
 }

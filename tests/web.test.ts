@@ -200,3 +200,30 @@ test("a consumer sweeps stakes to the pot with another chip set", async () => {
   await new Promise((r) => setTimeout(r, 100));
   assert.equal(landed, 1);
 });
+
+test("the OpenRPC interface describes the settings grammar, limits and the exported functions", async () => {
+  const doc = JSON.parse(readFileSync(new URL("../interfaces/chip-graphics.json", import.meta.url), "utf8"));
+  assert.equal(doc.openrpc, "1.3.2");
+  assert.deepEqual([doc.info.title, doc.info.version], ["ae/chip-graphics", "1.0.0"]);
+  const { DenominationsSetting, ChipColoursSetting, Limits, Flight } = doc.components.schemas;
+  const denominations = new RegExp(DenominationsSetting.pattern);
+  for (const good of ["casino 5000 1000 500 100 25 5 1", "tokens 100 20 5 1", "10 1"]) {
+    assert.match(good, denominations);
+    assert.ok(parseDenominations(good).length > 0);
+  }
+  for (const bad of ["casino", "casino 0 1", "casino 2.5 1"]) {
+    assert.doesNotMatch(bad, denominations);
+    assert.throws(() => parseDenominations(bad), bad);
+  }
+  const colours = new RegExp(ChipColoursSetting.pattern);
+  for (const good of ["casino", "mine 1000-e07b2a 25-2e8b57", ""]) assert.match(good, colours);
+  for (const bad of ["mine 1000-e07b2", "mine red"]) {
+    assert.doesNotMatch(bad, colours);
+    assert.throws(() => parseChipColours(bad, CASINO), bad);
+  }
+  assert.deepEqual(Limits.const, { maxStack: MAX_STACK, flyMs: FLY_MS, allInMs: ALL_IN_MS });
+  const flight = betFlight("a", 0, 10, false, { x: 0, y: 0 }, { x: 1, y: 1 });
+  assert.deepEqual(Object.keys(flight!).sort(), [...Flight.required].sort());
+  const web: Record<string, unknown> = { ...(await import("../implementation/web/chip-model.ts")), ...(await import("../implementation/web/chips.ts")) };
+  for (const method of doc.methods) assert.equal(typeof web[method.name], "function", method.name);
+});

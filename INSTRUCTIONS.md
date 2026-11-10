@@ -3,11 +3,11 @@
 ## For the agent
 Select `ourapps-ae/chip-graphics`; connect `theme` to the theme component. Set `denominations` from the recipe's chips answer (starting chips and blinds decide which denominations are useful; always include 1) and leave `chipColours` at `casino` unless the user wants other colours.
 
-- Select package `ourapps-ae/chip-graphics` version `0.3.0`.
+- Select package `ourapps-ae/chip-graphics` version `0.4.0`.
 - Settings to configure:
   - `denominations` (string, label; optional; default `casino 5000 1000 500 100 25 5 1`)
   - `chipColours` (string, label; optional; default `casino`)
-- Connect the provided `chip-graphics` (ae/chip-graphics 1.0.0) to the consumer that needs it.
+- Connect the provided `chip-graphics` (ae/chip-graphics 1.0.0, OpenRPC 1.3.2 document `interfaces/chip-graphics.json`) to the consumer that needs it.
 - Supply `theme` (ae/theme 1.0.0) from the component that provides it.
 - No accounts or keys are needed.
 
