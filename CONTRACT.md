@@ -23,7 +23,7 @@ Facilities: `chip-graphics` (Chip piles, denomination breakdown, bets and winnin
 - `implementation/web/chips.ts` -> `components/chip-graphics/web/chips.ts`
 
 Dependencies: none.
-`tools.lock.json` pins verification tools: node 26.5.0, python3 3.12.8, swiftc 6.4.2, kotlinc 2.2.0, java 26.0.1. Licence wording remains deferred.
+`tools.lock.json` pins verification tools: node 26.5, python3 3.12, swiftc 6.4, kotlinc 2.2, java 26.0. Licence wording remains deferred.
 
 ## Provided interfaces
 - `interfaces/chip-graphics.json` defines `chip-graphics` (ae/chip-graphics) version 1.0.0 as an OpenRPC 1.3.2 document: one method per web function, each description naming the Swift and Kotlin form, with the two installer settings (as string patterns), stacks, colours, pile layouts and flights as JSON Schema 2020-12 under `components.schemas`. Formatters, projectors, landing callbacks and DOM elements are described as host values, not serialised.
@@ -43,9 +43,9 @@ None. Local drawing only; no accounts, network or deployment.
 ## Verification
 Node tests check the breakdown (largest first, adding back to the amount for many amounts, twelve to a stack, other denomination sets and a missing 1 refused), the settings grammar, colours (casino, overrides, spare colours, readable ink), pile layout (stack spacing, lift, which chips carry a value), short value text, the DOM of `pileEl`, and flights (sweep, award, the rise of a bet, an all in being slower, easing, landing order) including launching real timed flights against a stand-in page and cancelling them, and that the OpenRPC interface's setting patterns accept and refuse what the parsers do, its limits and flight shape match the code, and every method it lists is an exported web function. The Apple check compiles and runs `tests/apple/main.swift` for macOS, comparing 36 breakdowns over three denomination sets, pile layouts, colours and flights with the TypeScript output, then type-checks all Swift with the theme's against the iOS simulator SDK. The Android check compares the same breakdowns and layouts (`tests/android/Expected.kt`); kotlinc was not available where this was written, so it has not been run, and `ChipViews.kt` (Compose) is only compiled by the application's Gradle build. Pixels are not compared.
 
-- `node --test tests/web.test.ts` (web, required-local; tools: node 26.5.0)
-- `python3 tests/native.py apple` (apple, platform; tools: python3 3.12.8, swiftc 6.4.2)
-- `python3 tests/native.py android` (android, platform; tools: python3 3.12.8, kotlinc 2.2.0, java 26.0.1)
+- `node --test tests/web.test.ts` (web, required-local; tools: node 26.5)
+- `python3 tests/native.py apple` (apple, platform; tools: python3 3.12, swiftc 6.4)
+- `python3 tests/native.py android` (android, platform; tools: python3 3.12, kotlinc 2.2, java 26.0)
 
 ## Scenarios and presentation
 A hand of 1,337 chips shows as one orange 1k chip, three black 100s, a green 25, two red 5s and two grey 1s; a call sends the caller's chips from their seat to the bet spot; at the end of a betting round every bet sweeps into the pot together; a winner's share flies from the pot to their stack; a game of tokens worth 100, 20, 5 and 1 shows blue 100 chips; a raise to everything is slower, larger and glows.
