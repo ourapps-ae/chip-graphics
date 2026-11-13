@@ -41,6 +41,12 @@
       "executable": false,
       "source": "implementation/web/chips.ts",
       "template": false
+    },
+    {
+      "destination": "components/chip-graphics/web/index.ts",
+      "executable": false,
+      "source": "implementation/web/index.ts",
+      "template": false
     }
   ],
   "capabilities": {
@@ -53,7 +59,8 @@
       "components/chip-graphics/apple/Sources/ChipViews.swift",
       "components/chip-graphics/web/chip-model.ts",
       "components/chip-graphics/web/chips.css",
-      "components/chip-graphics/web/chips.ts"
+      "components/chip-graphics/web/chips.ts",
+      "components/chip-graphics/web/index.ts"
     ]
   },
   "collect": [
@@ -145,6 +152,10 @@
     {
       "executable": false,
       "path": "implementation/web/chips.ts"
+    },
+    {
+      "executable": false,
+      "path": "implementation/web/index.ts"
     },
     {
       "executable": false,
