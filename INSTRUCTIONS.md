@@ -3,7 +3,7 @@
 ## For the agent
 Select `ourapps-ae/chip-graphics`; connect `theme` to the theme component. Set `denominations` from the recipe's chips answer (starting chips and blinds decide which denominations are useful; always include 1) and leave `chipColours` at `casino` unless the user wants other colours.
 
-- Select package `ourapps-ae/chip-graphics` version `0.4.1`.
+- Select package `ourapps-ae/chip-graphics` version `0.5.0`.
 - Settings to configure:
   - `denominations` (string, label; optional; default `casino 5000 1000 500 100 25 5 1`)
   - `chipColours` (string, label; optional; default `casino`)

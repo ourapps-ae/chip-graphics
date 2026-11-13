@@ -1,6 +1,6 @@
 {
   "name": "chip-graphics",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "title": "Chip graphics",
   "description": "Chip stacks for an amount in the application's denominations, and bets moving to the pot, for web, Apple and Android.",
   "facilities": [
