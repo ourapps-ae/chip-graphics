@@ -1,6 +1,6 @@
 {
   "name": "chip-graphics",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "title": "Chip graphics",
   "description": "Chip stacks for an amount in the application's denominations, and bets moving to the pot, for web, Apple and Android.",
   "facilities": [
@@ -99,9 +99,9 @@
     "java": "26.0.1"
   },
   "platforms": [
-    "web",
+    "android",
     "apple",
-    "android"
+    "web"
   ],
   "text": {
     "purpose": "`chip-graphics` turns an amount into stacks of discs and moves them. A greedy breakdown picks the largest denominations first and starts another stack after twelve chips; discs are drawn with a dashed edge and the value of the top chip; the amount is written under the pile. It also plans motion: every bet moving from in front of its owner to the pot at once, winnings moving from the pot to each winner, a bet moving from a seat to its spot (an all in being slower and larger), with the position of a pile at any moment of a flight. The denominations and their colours are settings, so a game of tokens worth 100, 20, 5 and 1 uses the same code as a casino set. It draws no cards and knows no game rules.",
@@ -131,5 +131,212 @@
       }
     ],
     "notes": "Pure library; no provider limits apply."
+  },
+  "classes": [
+    {
+      "reference": {
+        "name": "ourapps-ae/chip-graphics-class",
+        "version": "1.0.0",
+        "digest": "4dae7b2d9ce48332200a14ac96f5916e45a70d7a049873265678c1f485a8a3b5"
+      },
+      "descriptor": {
+        "format": 1,
+        "name": "ourapps-ae/chip-graphics-class",
+        "version": "1.0.0",
+        "provides": [
+          {
+            "type": "ae/chip-graphics",
+            "version": "1.0.0",
+            "path": "classes/chip-graphics-class/chip-graphics.json",
+            "modules": {
+              "web": [
+                "web/index.ts"
+              ],
+              "android": [
+                "android/src/main/java"
+              ],
+              "ios": [
+                "apple/Sources"
+              ],
+              "macos": [
+                "apple/Sources"
+              ],
+              "tvos": [
+                "apple/Sources"
+              ],
+              "windows": [
+                "web/index.ts"
+              ]
+            }
+          }
+        ],
+        "requires": [
+          {
+            "type": "ae/theme",
+            "version": "1.0.0"
+          }
+        ],
+        "settings": {
+          "type": "object",
+          "properties": {
+            "chipColours": {
+              "type": "string",
+              "pattern": "^[A-Za-z][A-Za-z0-9 -]{0,63}$"
+            },
+            "denominations": {
+              "type": "string",
+              "pattern": "^[A-Za-z][A-Za-z0-9 -]{0,63}$"
+            }
+          },
+          "required": [
+            "chipColours",
+            "denominations"
+          ],
+          "additionalProperties": false
+        },
+        "inventory": [
+          {
+            "path": "classes/chip-graphics-class/check.mjs",
+            "digest": "367eea1e04c8b148f943092a26352fcba8d56b195bce7a8c2f66859384eb0e49"
+          },
+          {
+            "path": "classes/chip-graphics-class/chip-graphics.json",
+            "digest": "50b4703b3f7c7e8021e6a4bf1106a77646fda5dd2e00404e8ff5946835335c66"
+          },
+          {
+            "path": "classes/chip-graphics-class/runtime.mjs",
+            "digest": "7440f3891614c423f74668cb5a2445fea58bbfa4d7c740c8e8a855d1d9300d43"
+          }
+        ],
+        "verification": [
+          {
+            "id": "shared",
+            "root": "package",
+            "argv": [
+              "node",
+              "classes/chip-graphics-class/check.mjs"
+            ],
+            "cwd": ".",
+            "prepare": [],
+            "tools": {
+              "node": "26.5"
+            },
+            "fixtures": [
+              "classes/chip-graphics-class/check.mjs"
+            ],
+            "locks": [],
+            "network": false,
+            "timeoutSeconds": 60,
+            "expectedExit": 0,
+            "scope": "required-local",
+            "requirements": []
+          }
+        ]
+      }
+    }
+  ],
+  "implements": [
+    {
+      "name": "ourapps-ae/chip-graphics-class",
+      "version": "1.0.0",
+      "digest": "4dae7b2d9ce48332200a14ac96f5916e45a70d7a049873265678c1f485a8a3b5"
+    }
+  ],
+  "upstream": [],
+  "compatibility": {
+    "runtimes": {
+      "node": ">=26.5.0 <27.0.0",
+      "swift": "=6.4.2",
+      "ios": ">=17.0.0",
+      "macos": ">=14.0.0",
+      "tvos": ">=17.0.0",
+      "kotlin": "=2.3.20",
+      "java": ">=17.0.0 <27.0.0",
+      "android": ">=8.0.0"
+    },
+    "frameworks": {
+      "android-ui": {
+        "name": "androidx.compose.ui",
+        "range": "=1.10.0"
+      }
+    },
+    "dependencies": [
+      {
+        "name": "pkg:maven/androidx.compose.ui/ui",
+        "version": "1.10.0",
+        "isolation": "shared"
+      },
+      {
+        "name": "pkg:maven/androidx.compose.material3/material3",
+        "version": "1.4.0",
+        "isolation": "shared"
+      }
+    ],
+    "styles": {
+      "scope": "global",
+      "namespaces": [
+        ".chip::align-items",
+        ".chip::border",
+        ".chip::border-radius",
+        ".chip::box-shadow",
+        ".chip::box-sizing",
+        ".chip::display",
+        ".chip::font-weight",
+        ".chip::justify-content",
+        ".chip::line-height",
+        ".chip::position",
+        ".flight.allin .pile::filter",
+        ".flight::position",
+        ".flight::transform",
+        ".flight::z-index",
+        ".fx::inset",
+        ".fx::pointer-events",
+        ".fx::position",
+        ".fx::z-index",
+        ".pile::position",
+        ".pilebox .amount::background",
+        ".pilebox .amount::border",
+        ".pilebox .amount::border-radius",
+        ".pilebox .amount::color",
+        ".pilebox .amount::font-size",
+        ".pilebox .amount::font-weight",
+        ".pilebox .amount::padding",
+        ".pilebox .amount::white-space",
+        ".pilebox::align-items",
+        ".pilebox::display",
+        ".pilebox::flex-direction",
+        ".pilebox::gap",
+        ".pilebox::pointer-events"
+      ],
+      "conflicts": []
+    }
+  },
+  "maintenance": {
+    "owners": [
+      "Level N Ltd"
+    ],
+    "contact": "https://github.com/ourapps-ae/chip-graphics/issues",
+    "repository": "https://github.com/ourapps-ae/chip-graphics",
+    "updates": {
+      "source": "https://github.com/ourapps-ae/chip-graphics/releases",
+      "strategy": "manual"
+    }
+  },
+  "supportedPlatforms": [
+    "android",
+    "ios",
+    "macos",
+    "tvos",
+    "web",
+    "windows"
+  ],
+  "licence": "Apache-2.0",
+  "licenceFile": "LICENCE",
+  "noticeFile": "NOTICE",
+  "templates": [],
+  "modules": {
+    "web": "web/index.ts",
+    "android": "android/src/main/java",
+    "apple": "apple/Sources"
   }
 }

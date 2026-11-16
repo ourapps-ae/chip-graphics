@@ -1,0 +1,11 @@
+import { assert, load } from './runtime.mjs';
+const m = await load('web/index.ts');
+for (const amount of [0, 1, 7, 31, 127, 5051, 99123]) assert.equal(m.stackTotal(m.breakdown(amount)), amount);
+assert.deepEqual(m.breakdown(-1), []);
+assert.throws(() => m.parseDenominations('chips 5 25'));
+assert.equal(m.normaliseSettings({ denominations: 'chips 10 1', chipColours: 'chips 10-123456' }).colours[10].fill, '#123456');
+const flight = { from: { x: 1, y: 2 }, to: { x: 9, y: 10 } };
+assert.deepEqual(m.flightAt(flight, 0), flight.from);
+assert.deepEqual(m.flightAt(flight, 1), flight.to);
+assert.deepEqual(m.flightAt(flight, 0.5), { x: 5, y: 6 });
+assert.equal(m.betFlight('a', 20, 20, false, flight.from, flight.to), null);
