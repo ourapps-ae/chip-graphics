@@ -1,7 +1,7 @@
 """Compile and run the Swift checks (macOS), type-check the SwiftUI sources against the iOS SDK, and compile the Kotlin checks.
 
-The view sources read the theme component's Swift types, so its sources are found next to this component
-(components/theme/implementation/apple/Sources in a checkout, components/theme/apple/Sources once installed).
+The view sources read the theme component's Swift types: its sources next to this component when they are there
+(components/theme/implementation/apple/Sources in a checkout), otherwise the copy of them in tests/apple/theme/.
 
 Usage: python3 tests/native.py apple|android
 """
@@ -18,7 +18,7 @@ def sibling(name, *candidates):
         path = root.parent / name / candidate
         if path.is_dir():
             return path
-    sys.exit(f"blocked: the {name} component's sources were not found next to this component")
+    return root / "tests/apple" / name
 
 
 def ios_flags():
