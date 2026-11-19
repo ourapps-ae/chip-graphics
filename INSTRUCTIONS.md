@@ -3,7 +3,7 @@
 ## For the agent
 Select `ourapps-ae/chip-graphics`; connect `theme` to the theme component. Set `denominations` from the recipe's chips answer (starting chips and blinds decide which denominations are useful; always include 1) and leave `chipColours` at `casino` unless the user wants other colours.
 
-- Select package `ourapps-ae/chip-graphics` version `0.7.0`.
+- Select package `ourapps-ae/chip-graphics` version `0.8.0`.
 - Settings to configure:
   - `denominations` (string, label; optional; default `casino 5000 1000 500 100 25 5 1`)
   - `chipColours` (string, label; optional; default `casino`)
@@ -18,6 +18,6 @@ Choose denominations so a typical stack is a handful of chips (a stack over twel
 From the component directory:
 
 - `node --test tests/web.test.ts` (web, required-local; tools: node 26.5)
-- `python3 tests/native.py apple` (apple, platform; tools: python3 3.12, swiftc 6.4)
+- `python3 tests/native.py apple` (apple, platform; tools: python3 3.12, swiftc 6.4, xcrun 72)
 - `python3 tests/native.py android` (android, platform; tools: python3 3.12, kotlinc 2.2, java 26.0)
 - `python3 -m aepm review <digest> --store STORE --policy POLICY --trusted --allow-network` checks an archive fetched with `python3 -m aepm fetch ourapps-ae/chip-graphics@VERSION --store STORE --from https://ourapps.app` and runs its suites.

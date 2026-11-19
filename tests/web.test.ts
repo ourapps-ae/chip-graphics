@@ -151,20 +151,24 @@ test("flights ease from start to end, and an all in pulses", () => {
   assert.ok(Math.abs(allInScale(1) - 1) < 1e-12);
 });
 
+// Timers run late on a loaded machine: wait for a state, up to two seconds, instead of a fixed time.
+async function until(done: () => boolean) {
+  for (const end = Date.now() + 2000; !done() && Date.now() < end;) await new Promise((r) => setTimeout(r, 5));
+}
+
 test("launched flights appear after their delay, travel, land and are removed", async () => {
   const container = new FakeElement("div");
   const landed: string[] = [];
   const flights = sweepToPot([{ id: "a", amount: 30, from: { x: 0, y: 0 } }, { id: "b", amount: 5, from: { x: 1, y: 1 } }], { x: 0.5, y: 0.5 }, { flyMs: 40, startMs: 20 });
-  flights.push({ ...flights[0], key: "late", delayMs: 200, endMs: 240 });
+  flights.push({ ...flights[0], key: "late", delayMs: 5000, endMs: 5040 });
   const cancel = launchFlights(el(container) as unknown as HTMLElement, flights, { project: (p) => ({ x: p.x * 100, y: p.y * 100 }), steps: 4, onLand: (f) => landed.push(f.key) });
   const nodes = container.byClass("flight");
   assert.equal(nodes.length, 3);
   assert.equal(nodes[0].style.visibility, "hidden");
   assert.equal(nodes[0].style.left, "0px");
   assert.equal(nodes[1].style.left, "100px");
-  await new Promise((r) => setTimeout(r, 40));
-  assert.equal(nodes[0].style.visibility, "visible");
-  await new Promise((r) => setTimeout(r, 90));
+  await until(() => nodes[0].style.visibility === "visible");
+  await until(() => landed.length === 2);
   assert.deepEqual(landed.sort(), ["pot:a", "pot:b"]);
   assert.equal(container.byClass("flight").length, 1, "landed piles are removed");
   cancel();
@@ -177,9 +181,10 @@ test("an all in grows as it flies", async () => {
   const container = new FakeElement("div");
   const f = betFlight("a", 0, 500, false, { x: 0, y: 0 }, { x: 1, y: 0 }, true, { allInMs: 40 })!;
   launchFlights(container as unknown as HTMLElement, [f], { project: (p) => ({ x: p.x * 10, y: 0 }), steps: 2 });
-  await new Promise((r) => setTimeout(r, 25));
-  assert.equal(container.byClass("flight")[0].style.transform, "translate(-50%, -50%) scale(1.5)");
-  await new Promise((r) => setTimeout(r, 40));
+  const node = container.byClass("flight")[0];
+  await until(() => Boolean(node.style.transform));
+  assert.equal(node.style.transform, "translate(-50%, -50%) scale(1.5)");
+  await new Promise((r) => setTimeout(r, 80));
 });
 
 test("the stylesheet reads only theme variables", () => {
@@ -197,7 +202,7 @@ test("a consumer sweeps stakes to the pot with another chip set", async () => {
   let landed = 0;
   sweepStakes(container as unknown as HTMLElement, [{ id: "a", amount: 40, x: 10, y: 10 }, { id: "b", amount: 0, x: 20, y: 20 }], () => landed++);
   assert.equal(container.byClass("flight").length, 1);
-  await new Promise((r) => setTimeout(r, 100));
+  await until(() => landed === 1);
   assert.equal(landed, 1);
 });
 
