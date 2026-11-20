@@ -1,6 +1,6 @@
 {
   "name": "chip-graphics",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "title": "Chip graphics",
   "description": "Chip stacks for an amount in the application's denominations, and bets moving to the pot, for web, Apple and Android.",
   "facilities": [
@@ -141,13 +141,17 @@
     {
       "reference": {
         "name": "ourapps-ae/chip-graphics-class",
-        "version": "1.0.0",
-        "digest": "4dae7b2d9ce48332200a14ac96f5916e45a70d7a049873265678c1f485a8a3b5"
+        "version": "1.1.0",
+        "digest": "cd818db855c062ec00f3ac7cb3c9cacd320ba8d70ce34d79533da09de8bd8aa9"
       },
       "descriptor": {
-        "format": 1,
+        "format": 2,
         "name": "ourapps-ae/chip-graphics-class",
-        "version": "1.0.0",
+        "version": "1.1.0",
+        "title": "Chip graphics",
+        "summary": "Chip stacks in denominations and chips flying between bets and the pot",
+        "category": "games/chips-and-scoring",
+        "presentation": "visual",
         "provides": [
           {
             "type": "ae/chip-graphics",
@@ -243,8 +247,8 @@
   "implements": [
     {
       "name": "ourapps-ae/chip-graphics-class",
-      "version": "1.0.0",
-      "digest": "4dae7b2d9ce48332200a14ac96f5916e45a70d7a049873265678c1f485a8a3b5"
+      "version": "1.1.0",
+      "digest": "cd818db855c062ec00f3ac7cb3c9cacd320ba8d70ce34d79533da09de8bd8aa9"
     }
   ],
   "upstream": [],
@@ -255,7 +259,7 @@
       "ios": ">=17.0.0",
       "macos": ">=14.0.0",
       "tvos": ">=17.0.0",
-      "kotlin": "=2.3.20",
+      "kotlin": "=2.4.21",
       "java": ">=17.0.0 <27.0.0",
       "android": ">=8.0.0"
     },
@@ -551,5 +555,40 @@
         "manual": "Without the package manager, install Node 26 from nodejs.org (the installer, or the zip or tar archive with its folder put first on PATH); on Linux also from the NodeSource repository."
       }
     ]
-  }
+  },
+  "release": {
+    "channel": "features",
+    "fixes": []
+  },
+  "images": [
+    {
+      "caption": "Piles for 25, 380, 2,450, 12,800 and 47,615 chips in casino denominations, night look",
+      "height": 420,
+      "path": "images/piles-night.png",
+      "platform": "web",
+      "width": 960
+    },
+    {
+      "caption": "The same piles in the lounge look",
+      "height": 420,
+      "path": "images/piles-lounge.png",
+      "platform": "web",
+      "width": 960
+    },
+    {
+      "caption": "A token set of 100, 20, 5 and 1 with a blue 100, as a non-casino game would set it",
+      "height": 420,
+      "path": "images/token-set.png",
+      "platform": "web",
+      "width": 960
+    },
+    {
+      "caption": "Four bets half way into the pot, at the positions the flight model gives",
+      "height": 540,
+      "path": "images/sweep-to-pot.png",
+      "platform": "web",
+      "width": 960
+    }
+  ],
+  "vulnerabilityWaivers": []
 }
